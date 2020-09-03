@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@521&display=swap');
+        .btn {
+            font-family: 'Oswald', sans-serif;
+            color: #fff;
+            width: 60px;
+            height: 60px;
+            background: #74ebd5;
+            background: -webkit-linear-gradient(to right, #74ebd5, #acb6e5);
+            background: linear-gradient(to right, #74ebd5, #acb6e5);
+            display: inline-block;
+            text-align: center;
+            line-height: 60px;
+            user-select: none;
+            box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+            border-radius: 5px;
+        }
+        
+        .btn:hover {
+            background: linear-gradient(to right, rgb(118, 217, 238) 0%, rgb(160, 234, 250) 100%);
+            color: #fff;
+        }
+        
+        #calc-wrap {
+            font-family: 'Oswald', sans-serif;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            background: #eeeeee;
+        }
+        
+        #calc {
+            font-family: 'Oswald', sans-serif;
+            width: 240px;
+            display: inline-block;
+            background: #eee;
+        }
+        
+        #inputVal {
+            font-family: 'Oswald', sans-serif;
+            width: 100%;
+            border: 0;
+            font-size: 16px;
+            resize: vertical;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="calc-wrap">
+        <div id="calc">
+            <textarea id=inputVal>0</textarea>
+        </div>
+    </div>
+
+    <script src="app.js">
+    </script>
+</body>
+
+</html>

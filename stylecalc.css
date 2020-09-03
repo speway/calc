@@ -1,0 +1,80 @@
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@521&display=swap');
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+ 
+ .calc {
+     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+     border-radius: 5px;
+     width: 373px;
+     height: 464px;
+ }
+ 
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     font-family: 'Oswald', sans-serif;
+ }
+ 
+ .button {
+     margin: 5px;
+     background-color: #FAFAFA;
+     color: #949DA8;
+     width: 80px;
+     height: 80px;
+     font-size: 20px;
+     cursor: pointer;
+     border: 0px;
+     border-radius: 5px;
+ }
+ 
+ .button:active {
+     color: #fff;
+     background-color: #195DA9;
+ }
+ 
+ .equal {
+     background-image: linear-gradient(to right, #68B2EC, #0C4F9D);
+     color: #FAFAFA;
+     width: 363px;
+     text-align: center;
+     font-size: 40px;
+     padding-top: 20px;
+     margin-top: -20px;
+ }
+ 
+ .ac {
+     width: 165px;
+ }
+ 
+ .btnColor {
+     background-color: #F1F8FE;
+     color: #195DA9;
+ }
+ 
+ .output {
+     background-color: #195DA9;
+     width: 373px;
+     height: 150px;
+     text-align: right;
+     border: none;
+     outline: none;
+     font-weight: 300;
+     border-radius: 10px 10px 0 0;
+ }
+ 
+ input {
+     text-align: right;
+     border: none;
+     outline: none;
+     color: #fff;
+     background-color: #195DA9;
+     font-size: 40px;
+     width: 330px;
+     height: 70px;
+     font-family: 'Oswald', sans-serif;
+     padding-right: 10px;
+ }
